@@ -1,2 +1,6 @@
-<h1>Say#really</h1>
-<p>Find me in app/views/say/really.html.erb</p>
+<h1>Let's Show some files</h1>
+<ul>
+<% for file in @files %>
+file name is: <%= file %> <br />
+<% end %>
+</ul>
